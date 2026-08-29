@@ -53,7 +53,7 @@ services:
         condition: service_healthy
 
   evolution-api:
-    image: evolutionapi/evolution-api:latest
+    image: atendai/evolution-api:v2.1.0
     container_name: evolution_api
     restart: always
     ports:
