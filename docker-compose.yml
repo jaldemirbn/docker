@@ -51,7 +51,7 @@ services:
         condition: service_healthy
 
   evolution-api:
-    image: ghcr.io/atendai/evolution-api:latest
+    image: evolutionapi/evolution-api:latest
     container_name: evolution_api
     restart: always
     ports:
